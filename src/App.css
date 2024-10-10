@@ -118,7 +118,7 @@ select:focus {
 
 .column {
   width: 100%; /* Fixed width for each column */
-  margin-right: 20px; /* Space between columns */
+  margin-right: 5px; /* Space between columns */
   overflow-y: auto; /* Enable vertical scrolling */
   /* max-height: 100%; Set a max height for scrolling */
   position: relative; /* Position relative for header positioning */
