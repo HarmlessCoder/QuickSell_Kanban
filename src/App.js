@@ -209,7 +209,7 @@ function App() {
           return (
             <div className="column" key={groupKey}>
               <div className="column-header">
-                <h3 className="column-title">
+                <h4 className="column-title">
                   {groupBy === "Status" && statusIcons[groupLabel] && (
                     <img
                       src={statusIcons[groupLabel]}
@@ -241,7 +241,7 @@ function App() {
                   <span className="card-count">
                     ({sortedGroupedTickets[groupKey].length})
                   </span>
-                </h3>
+                </h4>
                 <div className="column-buttons">
                   <button className="column-button">
                     <img src={AddIcon} alt="Icon 1" />
