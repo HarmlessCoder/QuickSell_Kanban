@@ -1,0 +1,121 @@
+.card {
+  /* width: 320px; */
+  width: 88%;
+  max-width: 320px;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-id {
+  color: #999;
+  font-size: 14px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.user-avatar {
+  position: relative;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.tooltip,
+.tooltip-priority {
+  position: absolute;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.tooltip {
+  top: 35px;
+  left: -10px;
+}
+
+.tooltip-priority {
+  bottom: 25px;
+  left: 40px;
+}
+
+/* Flexbox to align priority icon and tags */
+.card-footer {
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+  margin-top: 5px;
+}
+
+.priority-icon-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Spacing between icon and tags */
+}
+
+.priority-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-right: 5px;
+  /* margin-bottom: 5px; */
+  /* margin */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .card {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .priority-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .avatar {
+    width: 25px;
+    height: 25px;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+}

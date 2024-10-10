@@ -1,0 +1,179 @@
+.app {
+  /* padding: 20px; */
+  /* background-color: #f7f8fa; */
+}
+
+.dropdown {
+  position: relative;
+  /* margin-bottom: 20px; */
+}
+
+/* .dropdown-button {
+  display: flex;
+  align-items: center;
+} */
+
+.dropdown-button {
+  display: flex;
+  align-items: center;
+  padding: 6px 6px;
+  /* margin-left: 20px; */
+  margin: 15px 50px;
+  border: 1px solid #ddd;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* .display-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+} */
+
+.display-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.down-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 4px;
+}
+
+/* .dropdown-menu {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 1000;
+  margin-top: 10px;
+} */
+
+.dropdown-menu {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  /* margin-top: 8px; */
+  margin-left: 25px;
+  width: 220px; /* Set a fixed width for consistency */
+  border-radius: 8px;
+}
+
+.dropdown-option {
+  margin-bottom: 15px;
+}
+
+.dropdown-option:last-child {
+  margin-bottom: 0;
+}
+
+label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.select-container {
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+select {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+}
+
+select:focus {
+  outline: none;
+  border-color: #999;
+}
+
+.columns-container {
+  /* display: flex; */
+  /* overflow-x: auto; Enable horizontal scrolling for the overall columns container */
+  /* padding: 10px; Add padding to the container */
+}
+.columns-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(244 246 250); /* Add the background color */
+  padding: 20px 50px;
+  border-radius: 8px; /* Optional rounded corners */
+}
+
+.column {
+  width: 100%; /* Fixed width for each column */
+  margin-right: 20px; /* Space between columns */
+  overflow-y: auto; /* Enable vertical scrolling */
+  /* max-height: 100%; Set a max height for scrolling */
+  position: relative; /* Position relative for header positioning */
+  display: flex;
+  flex-direction: column;
+  height: 86vh; /* Set the parent's height to 100% of the viewport */
+}
+
+.column-header {
+  display: flex; /* Flex container for title and buttons */
+  justify-content: space-between; /* Space out title and buttons */
+  align-items: center; /* Center vertically */
+  padding: 10px; /* Add some padding */
+  /* background: white; Background for the header */
+  border-bottom: 1px solid #ccc; /* Separator line */
+  position: sticky; /*Make it sticky*/
+  top: 0; /* Stick to the top of the column */
+  z-index: 1; /* Ensure it's on top of other content */
+}
+
+.column-title {
+  margin: 0; /* Remove default margin */
+}
+
+.card-count {
+  color: grey; /* Grey text color for card count */
+  font-size: 0.9em; /* Slightly smaller font size */
+  margin-left: 5px; /* Space between title and count */
+}
+
+.column-buttons {
+  display: flex; /* Flex container for buttons */
+}
+
+.column-button {
+  background: none; /* Remove default button background */
+  border: none; /* Remove border */
+  cursor: pointer; /* Pointer cursor for buttons */
+  margin-left: 5px; /* Space between buttons */
+}
+
+.cards-container {
+  /* padding: 10px; Padding inside the cards container */
+  padding: 30px 5px;
+  overflow-y: auto; /*Allow scrolling for cards container*/
+  /* max-height: 540px; Leave space for the header */
+  flex-grow: 1;
+}
+
+/* Hide the scrollbar */
+.column::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari and Opera */
+}
+
+.column {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* For Firefox */
+}
