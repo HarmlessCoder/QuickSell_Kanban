@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/QuickSell_Kanban/static/css/main.ab1a88ba.css",
+    "main.js": "/QuickSell_Kanban/static/js/main.5556c1d9.js",
+    "static/js/453.ed3810f9.chunk.js": "/QuickSell_Kanban/static/js/453.ed3810f9.chunk.js",
+    "static/media/Display.svg": "/QuickSell_Kanban/static/media/Display.0168095040354204011b596e30abf32e.svg",
+    "static/media/Cancelled.svg": "/QuickSell_Kanban/static/media/Cancelled.360749f102ea2ac68b5841e9f9ff29dd.svg",
+    "static/media/3 dot menu.svg": "/QuickSell_Kanban/static/media/3 dot menu.4caedb468f68b915626e0e35045257b3.svg",
+    "static/media/No-priority.svg": "/QuickSell_Kanban/static/media/No-priority.7218b139313728c6a4efa8da6e34852b.svg",
+    "static/media/Done.svg": "/QuickSell_Kanban/static/media/Done.a5158827c6345b2f141ff681c57cb3ac.svg",
+    "static/media/down.svg": "/QuickSell_Kanban/static/media/down.b19d146ddbaad572f0f5cebb6dbdf766.svg",
+    "index.html": "/QuickSell_Kanban/index.html",
+    "static/media/Img - Low Priority.svg": "/QuickSell_Kanban/static/media/Img - Low Priority.491e21f9000cb90112dea470dbb72650.svg",
+    "static/media/Img - Medium Priority.svg": "/QuickSell_Kanban/static/media/Img - Medium Priority.83775665307e977d62e9b0fc7fb95cc4.svg",
+    "static/media/Img - High Priority.svg": "/QuickSell_Kanban/static/media/Img - High Priority.5024fd0d163cb13c95f2d29079e2974d.svg",
+    "static/media/add.svg": "/QuickSell_Kanban/static/media/add.f84a7335f3fac0026df6cafc2489b65d.svg",
+    "static/media/in-progress.svg": "/QuickSell_Kanban/static/media/in-progress.d4beb72fbc94f765259fc46ecaba9779.svg",
+    "static/media/SVG - Urgent Priority colour.svg": "/QuickSell_Kanban/static/media/SVG - Urgent Priority colour.9b67f75d5459d4d66573ef9f8e6f6841.svg",
+    "static/media/Backlog.svg": "/QuickSell_Kanban/static/media/Backlog.97adf3356b7d2e775ef530f7aed206e0.svg",
+    "static/media/To-do.svg": "/QuickSell_Kanban/static/media/To-do.c01d92afcffeef58b2cd9ae080df1f58.svg",
+    "main.ab1a88ba.css.map": "/QuickSell_Kanban/static/css/main.ab1a88ba.css.map",
+    "main.5556c1d9.js.map": "/QuickSell_Kanban/static/js/main.5556c1d9.js.map",
+    "453.ed3810f9.chunk.js.map": "/QuickSell_Kanban/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab1a88ba.css",
+    "static/js/main.5556c1d9.js"
+  ]
+}
