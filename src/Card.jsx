@@ -19,6 +19,15 @@ const Card = ({ id, title, tag, user, status, priority }) => {
     4: UrgentPriorityIcon,
   };
 
+  // Define a mapping for priority descriptions
+  const priorityDescriptions = {
+    0: "No Priority",
+    1: "Low Priority",
+    2: "Medium Priority",
+    3: "High Priority",
+    4: "Urgent Priority",
+  };
+
   return (
     <div className="card">
       <div className="card-header">
@@ -48,7 +57,9 @@ const Card = ({ id, title, tag, user, status, priority }) => {
           />
 
           {isPriorityHovered && (
-            <span className="tooltip-priority">{`Priority: ${priority}`}</span>
+            <span className="tooltip-priority">
+              {priorityDescriptions[priority]}
+            </span>
           )}
         </div>
         <div className="tags-container">
