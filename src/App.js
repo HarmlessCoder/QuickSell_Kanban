@@ -122,7 +122,7 @@ function App() {
           const sortedTickets = groupedTickets[status] || []; // Ensure empty array if no tickets for a status
           acc[status] = sortedTickets.sort((a, b) => {
             if (orderBy === "Priority") {
-              return a.priority - b.priority;
+              return b.priority - a.priority;
             } else {
               return a.title.localeCompare(b.title);
             }
