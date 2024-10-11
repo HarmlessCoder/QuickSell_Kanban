@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/QuickSell_Kanban/static/css/main.90cb6abf.css",
-    "main.js": "/QuickSell_Kanban/static/js/main.1f9a8864.js",
+    "main.js": "/QuickSell_Kanban/static/js/main.3e18ea8d.js",
     "static/js/453.ed3810f9.chunk.js": "/QuickSell_Kanban/static/js/453.ed3810f9.chunk.js",
     "static/media/Display.svg": "/QuickSell_Kanban/static/media/Display.0168095040354204011b596e30abf32e.svg",
     "static/media/Cancelled.svg": "/QuickSell_Kanban/static/media/Cancelled.360749f102ea2ac68b5841e9f9ff29dd.svg",
@@ -19,11 +19,11 @@
     "static/media/Backlog.svg": "/QuickSell_Kanban/static/media/Backlog.97adf3356b7d2e775ef530f7aed206e0.svg",
     "static/media/To-do.svg": "/QuickSell_Kanban/static/media/To-do.c01d92afcffeef58b2cd9ae080df1f58.svg",
     "main.90cb6abf.css.map": "/QuickSell_Kanban/static/css/main.90cb6abf.css.map",
-    "main.1f9a8864.js.map": "/QuickSell_Kanban/static/js/main.1f9a8864.js.map",
+    "main.3e18ea8d.js.map": "/QuickSell_Kanban/static/js/main.3e18ea8d.js.map",
     "453.ed3810f9.chunk.js.map": "/QuickSell_Kanban/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90cb6abf.css",
-    "static/js/main.1f9a8864.js"
+    "static/js/main.3e18ea8d.js"
   ]
 }
